@@ -1,0 +1,293 @@
+{
+                    "intents": [
+                      {
+                        "tag": "greeting",
+                        "patterns": [
+                          "Hi",
+                          "Hey",
+                          "How are you",
+                          "Is anyone there?",
+                          "Hello",
+                          "Good day"
+                        ],
+                        "responses": [
+                          "Hey :-)",
+                          "Hello, thanks for visiting",
+                          "Hi there, what can I do for you?",
+                          "Hi there, how can I help?"
+                        ]
+                      },
+                      {
+                        "tag": "goodbye",
+                        "patterns": ["Bye", "See you later", "Goodbye"],
+                        "responses": [
+                          "See you later, thanks for visiting",
+                          "Have a nice day",
+                          "Bye! Come back again soon."
+                        ]
+                      },
+                      {
+                        "tag": "thanks",
+                        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+                        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+                      },
+                      {
+                        "tag": "course",
+                        "patterns": [
+                          "Which coursers do you have?",
+                          "What kinds of coursers are there?",
+                          "need a course details?",
+                          "i am looking for a course",
+                          "i need a job",
+                          "need a course"
+                        ],
+                        "responses": [
+                          "so tell me are you frehser or carrergap",
+                          "Are you a fresher or carrergap "
+                        ]
+                      },
+                      {
+                        "tag": "fresher",
+                        "patterns": [
+                          "frehser",
+                          "yes i am a fresher",
+                          "yeah i am fresher",
+                          "Fresher"
+                        ],
+                        "responses": [
+                          "are you trying as a developer or tester",
+                          "what you choose in a fresher carrer as a devloper? or tester?"
+                        ]
+                      },
+                      {
+                        "tag": "devloper",
+                        "patterns": [
+                          "Developer",
+                          "developer",
+                          "develop"
+                        ],
+                        "responses": [
+                          "Are you looking for Java dotnet,  python react JS ,and angular UX design "
+                        ]
+                      },
+                      {
+                        "tag": "java dotnet",
+                        "patterns": [
+                          "java dotnet",
+                          "Java dotnet",
+                          "JAVA DOTNET"
+                          ,"javadotnet",
+                          "java",
+                          "Java"
+                        ],
+                        "responses": [
+                          "'JAVA DOTNET' course.RS 15000/- fess,course duration is 4 months,\n\n Are you interested in this course"
+                        ]
+                      },
+                      {
+                        "tag": "python react js",
+                        "patterns": [
+                          "python react js","Python React JS","python","Python"
+                        ],
+                        "responses": [
+                          "'Python React JS' course.RS 20000/- is the fees, and course duration is 6 months.\n\n Are you interested in this course"
+                          
+                        ]
+                      },
+                      {
+                        "tag": "your name",
+                        "patterns" :[
+                          "what is your name","your name","what is name"
+                        ],
+                        "respones":[
+                          "iam QT chat bot"
+                        ]
+                      },
+                      {
+                        "tag": "my name",
+                        "patterns":["my name is","is my name"],
+                        "respones":["nice to meet you"]
+                      },
+                      {
+                        "tag": "angular ux design",
+                        "patterns": [
+                          "angular ux design","angular UX design","angular","angu"
+                        ],
+                        "responses": [
+                          "'angular UX design' course.RS 25000/- is the fees, and course duration is 8 months.\n\n Are you interested in this course"
+                          
+                        ]
+                      },
+                      {
+                        "tag": "tester",
+                        "patterns": ["tester","test","Tester"],
+                        "responses": ["Are you looking for Selenium /tosca /Jmeter"
+                          
+                        ]
+                      },
+                      {
+                        "tag": "selinum",
+                        "patterns": ["selinum","Selinum","seli","Seli"],
+                        "responses": ["'Selinum' course.RS 25000/- is the fees, and course duration is 8 months.\n \nBot: Are you interested in this course?"
+                          
+                        ]
+                      },
+                      {
+                        "tag": "Tosca",
+                        "patterns": ["Tosca","tosca"],
+                        "responses": ["'TOSCA' course.RS 25000/- is the fees, and course duration is 8 months.\n \n Bot: Are you interested in this course?"
+                          
+                        ]
+                      },
+                      {
+                        "tag": "Jmeter",
+                        "patterns": ["Jmeter","jmeter","jme","jm"],
+                        "responses": [
+                          "'Jmeter' course.RS 25000/- is the fees, and course duration is 8 months.\n \n Bot: Are you interested in this course?"
+                        ]
+                      },
+                      {
+                        "tag": "carrer gap",
+                        "patterns": ["carrer","carrer gap","Carrer gap","Carrer Gap"],
+                        "responses": [
+                          "how many years do you have carrer gap?"
+                        ]
+                      },
+                      {
+                        "tag": "question",
+                        "patterns": ["1","2","3","4","5","6","7","8","9","10"],
+                        "responses": [
+                          "whats your qulification and passed out year?"
+                        ]
+                      },
+                      {
+                        "tag": "qulafication",
+                        "patterns": ["btech","engineering","bsc","b.com","mca","mcom","It","mtech","degree","mba","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022"],
+                        "responses": [
+                          " we have a / Devops /Dataengineer/powerbi/Salesforce/Servicenow /RPA ?"
+                        ]
+                      },
+                      {
+                        "tag":"testing",
+                        "patterns":["testing","Testing"],
+                        "responses":["In testing we have a Manual testing /Selenium/ETL/API"]
+                        
+                      },
+                      {
+                        "tag":"manual testing",
+                        "patterns":["manual testing","Manual testing","manual"],
+                        "respones":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                        
+                        
+                      },
+                      {
+                        "tag":"selinum",
+                        "patterns":["selenium","Selenium","sele"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                       
+                      },
+                      {
+                        "tag":"etl",
+                        "patterns":["ETL","etl"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"api",
+                        "patterns":["API","api"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"devops",
+                        "patterns":["devops","Devops"],
+                        "responses":["In devops we have a azuredevops/aws devops"]
+                        
+                      },
+                      {
+                        "tag":"azuredevops",
+                        "patterns":["Azuredevops","azuredevops","azure","Azure"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"aws devops",
+                        "patterns":["aws devops","Aws devops","aws","AWS"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                       
+                      },
+                      {
+                        "tag":"data",
+                        "patterns":["Dataengineer","dataengineer","data","Data"],
+                        "responses":["In Dataengineer we have a GCP dataengineer/AWS dataengineer/Azure data engineer"]
+                        
+                      },
+                      {
+                        "tag":"gcp dataengineer",
+                        "patterns":["GCP dataengineer","gcp dataengineer","gcp","GCP"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"aws dataengineer",
+                        "patterns":["aws dataengineer","AWS dataengineer"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while\n \nBot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"azure dataengineer",
+                        "patterns":["azure dataengineer","Azure dataengineer","azure"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \nBot:is there any thing else i can assist you?"]
+                       
+                      },
+                      {
+                        "tag":"Powerbi",
+                        "patterns":["powerbi","Powerbi","power"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \n Bot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"salesforce",
+                        "patterns":["Salesforce","salesforce","sales"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \n Bot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"servicenow",
+                        "patterns":["Servicenow","servicenow","service"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while\n \n Bot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"rpa",
+                        "patterns":["RPA","rpa"],
+                        "responses":["thanks for your valueable time , we noted all your details concerned team will getback to you in a while.\n \n Bot:is there any thing else i can assist you?"]
+                        
+                      },
+                      {
+                        "tag":"nothing",
+                        "patterns":["no","nothing","Nothing"],
+                        "responses":["THANK YOU"]
+                        
+                      },
+                      {
+                        "tag":"yes",
+                        "patterns":["yes","yeah","yup","Yes"],
+                        "responses":["please Enter your:\n fullname\nmobile number\n your emailid"]
+                        
+                      },
+                      {
+                        "tag":"email",
+                        "patterns":["@gmail.com"],
+                        "responses":["Thank you"]
+                        
+                      },
+                      {
+                        "tag":"feedback",
+                        "patterns":["i am intrested course"],
+                        "responses":["please Enter your:\n fullname\nmobile number\n your emailid and course"]
+                        
+                      }
+
+                    ]
+                  }
